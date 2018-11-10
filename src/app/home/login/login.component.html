@@ -1,0 +1,15 @@
+<mat-card class="container">
+  <h1>Login Form</h1>
+  <form class="example-form container" #userForm="ngForm" (ngSubmit)="onSubmit()" novalidate>
+
+    {{ userForm.value | json }}
+
+    <mat-form-field class="example-full-width">
+      <input matInput placeholder="Email" value="" name="email" [(ngModel)]="userModel.email">
+    </mat-form-field>
+    <mat-form-field class="example-full-width">
+      <input type="password" matInput placeholder="Password" name="password" [(ngModel)]="userModel.password">
+    </mat-form-field>
+    <button id="submitButton" type="submit" mat-button>Login</button>
+  </form>
+</mat-card>

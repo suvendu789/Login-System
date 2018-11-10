@@ -1,0 +1,33 @@
+h1 {
+    text-align: center;
+    margin: 50px;
+  }
+  
+  .jumbotron {
+    padding-top: 30px;
+    margin-top: 30px;
+  }
+  
+  .example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .example-full-width {
+    width: 100%;
+  }
+  mat-card{
+      width: 50%;
+      padding: 48px;
+      margin-top: 45px;
+  }
+  #submitButton {
+    margin-top: 20px;
+    width: 100%;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(34, 34, 165);
+    font-family: sans-serif;
+    border: #4226c0 solid 1px;
+  }
